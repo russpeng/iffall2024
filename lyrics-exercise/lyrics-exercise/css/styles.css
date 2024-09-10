@@ -1,0 +1,36 @@
+main{
+    text-align: center;
+    font-family: "joly-headline", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: azure;
+}
+h1{
+    text-align: center;
+    font-family: "sincopa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70pt;
+    color: #8B4513;
+}
+body {
+    background-color: #B0C4DE;
+}
+
+.section{
+    background-image: url('https://www.atlasandboots.com/wp-content/uploads/2019/05/ama-dablam2-most-beautiful-mountains-in-the-world.jpg');
+    padding: 60px;
+    background-color: #DAA520;
+    border-style:dotted;
+    border-width: 5px;
+    border-color: #8B4513;
+    border-radius: 50px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+h3{
+    font-size: 20pt;
+}
