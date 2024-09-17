@@ -1,0 +1,69 @@
+h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    color:grey;
+}
+
+h3{
+    font-family: "Open Sans", sans-serif;
+    color:grey;
+    font-size: 18px;
+}
+
+section{
+    margin: 5.5em 0;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+}
+
+.normal{
+    font-weight: normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.wide{
+    letter-spacing: 0.3em;
+}
+
+.narrow{
+    letter-spacing: -0.06em;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
