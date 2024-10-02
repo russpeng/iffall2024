@@ -1,0 +1,14 @@
+img{
+    width: auto;
+    height: 40em;
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+div{
+    margin-bottom: 5em;
+}
