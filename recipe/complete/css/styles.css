@@ -1,0 +1,166 @@
+body{
+    font-family: "ivysoft-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 700;
+}
+
+p{
+    font-size: 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+header{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+    margin: auto;
+    background-color: brown;
+    color: yellow;
+}
+ h1{
+    font-family: "aptly", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+    margin: auto;
+ }
+ 
+
+.firstimage{
+    width: 40%;
+}
+
+.ingredients{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: blanchedalmond;
+}
+
+.ingredients-container{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    margin: auto;
+    width: 700px;
+}
+
+.ingredients h1{
+    padding-bottom: 20px;
+}
+
+.ingredients-allergens{
+    color: red;
+}
+
+.ingredients-allergens h2{
+    margin: 0;
+}
+
+.ingredients-allergens p{
+    margin: 5px 0;
+}
+
+.ingredients-content div h2{
+    margin: 0;
+}
+
+.ingredients-content div p{
+    margin: 5px 0 20px 0;
+}
+
+
+.Receipe-container{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: auto;
+}
+
+.Receipe-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin:10px 0;
+    overflow: hidden;
+}
+
+.Receipe{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.Receipe h1 {
+    padding-bottom: 20px;
+}
+
+.Receipe-content img{
+    width: 50%;
+    object-fit: cover;
+}
+
+.Receipe-content p{
+    line-height: 25px;
+    margin:0;
+}
+
+
+
+@media (max-width: 768px) {
+    header{
+        h1{
+            font-size: 50px;
+        }
+    }
+
+    .firstimage{
+        width: 100%;
+    }
+
+    .Receipe-content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin:10px 0;
+        overflow: hidden;
+        font-size: 15px;
+        align-items: center;
+    }
+
+    .Receipe-container{
+        width: fit-content;
+    }
+
+    .Receipe-content img{
+        width: 35%;
+    }
+
+    .ingredients-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: fit-content;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .Receipe-content p{
+        width: 50%;
+    }
+    
+}
