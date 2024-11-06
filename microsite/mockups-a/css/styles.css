@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.Desktop img{
+    width: 700px;
+}
+
+.Mobile img{
+    width: 400px;
+}
+
+div{
+    margin-top: 50px;
+}
