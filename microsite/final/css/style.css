@@ -307,6 +307,7 @@ nav a:hover {
     width: 650px;
     height: 416px;
     object-fit: cover;
+    padding-top: 90px;
 }
 
 .acting > .container:nth-of-type(3){
@@ -317,6 +318,10 @@ nav a:hover {
     width: 500px;
     overflow-wrap: break-word;
     padding-right: 20px;
+}
+
+.acting > .container:nth-of-type(2) {
+   margin-top: 55px;
 }
 
 .acting > .container:nth-of-type(3) > .blockoftext > h1{
@@ -365,6 +370,7 @@ nav a:hover {
     width: 529px;
     height: 438px;
     padding-right: 40px;
+    padding-top: 30px;
 }
 
 .political-view{
@@ -379,14 +385,38 @@ nav a:hover {
     margin-top: 0;
 }
 
+.political > .container:nth-of-type(1) > .blockoftext > p {
+    width: 550px;
+}
+
+.political > .container:nth-of-type(3) > .blockoftext > p {
+    width: 550px;
+}
+
+.political > .container:nth-of-type(2) > .blockoftext > p {
+    width: 600px;
+}
+
+.political > .container:nth-of-type(4) > .blockoftext > p {
+    width: 600px;
+}
+
+.political > .container:nth-of-type(4) > .blockoftext > h1{
+    margin-top: 0;
+}
+
+
 .political-action{
     width: 529px;
     height: 411px;
     object-fit: cover;
     padding-right: 40px;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
+.political > .container:nth-of-type(2) {
+    margin-top: 60px;
+}
 
 
 @media (max-width: 1000px) {
@@ -635,6 +665,7 @@ nav a:hover {
     width: 315px;
     height: auto;
     object-fit: cover;
+    padding-top: 0px;
 }
 
 .acting > .container:nth-of-type(3){
@@ -650,6 +681,9 @@ nav a:hover {
     margin-top: 20px;
 }
 
+.acting > .container:nth-of-type(2) {
+    margin-top: 0px;
+ }
 
 
 /* political page styling */
@@ -674,12 +708,13 @@ nav a:hover {
 .politicalpage .blockoftext h1{
     color: #D32F2F;
     font-family: "acumin-pro", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 950;
-    line-height: 90px;
-    margin-bottom: -30px;
+    line-height:30px;
+    margin-bottom: 15px;
     letter-spacing: -1px;
+    margin-top: 50px;
 }
 
 .political > .container{
@@ -700,6 +735,7 @@ nav a:hover {
     width: 315px;
     height: auto;
     padding-right: 0px;
+    padding-top: 0px;
 }
 
 .political-view{
@@ -711,13 +747,11 @@ nav a:hover {
 }
 
 .political > .container:nth-of-type(3) > .blockoftext > h1{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .political > .container:nth-of-type(4) > .blockoftext > h1{
-    line-height: 20px;
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .political-action{
@@ -726,6 +760,27 @@ nav a:hover {
     object-fit: cover;
     padding-right: 0px;
     padding-top: 0px;
+}
+
+
+.political > .container:nth-of-type(1) > .blockoftext > p {
+    width: 315px;
+}
+
+.political > .container:nth-of-type(3) > .blockoftext > p {
+    width: 315px;
+}
+
+.political > .container:nth-of-type(2) > .blockoftext > p {
+    width: 315px;
+}
+
+.political > .container:nth-of-type(4) > .blockoftext > p {
+    width: 315px;
+}
+
+.political > .container:nth-of-type(2) {
+    margin-top: 0px;
 }
 
 }
